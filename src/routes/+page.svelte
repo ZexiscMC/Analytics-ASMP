@@ -25,7 +25,7 @@
 
 	<Counter />
 </section>
-
+<script>location.port</script>
 <style>
 	section {
 		display: flex;
