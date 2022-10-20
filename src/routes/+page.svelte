@@ -1,5 +1,6 @@
 <script>
 	import Counter from '$lib/Counter.svelte';
+	const port = process.env.PORT || 3000;
 </script>
 
 <svelte:head>
@@ -25,7 +26,6 @@
 
 	<Counter />
 </section>
-<script>location.port</script>
 <style>
 	section {
 		display: flex;
